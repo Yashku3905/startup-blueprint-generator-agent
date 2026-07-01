@@ -1,0 +1,68 @@
+# Indian Government Startup Schemes, DPIIT Recognition, and Legal Requirements
+
+## 1. DPIIT Startup Recognition
+
+### Eligibility Criteria
+To be recognized as a startup by the Department for Promotion of Industry and Internal Trade (DPIIT), an entity must satisfy the following:
+- **Entity Type**: Must be incorporated as a Private Limited Company, a Limited Liability Partnership (LLP), or a Registered Partnership Firm. Sole proprietorships and unregistered partnership firms are not eligible.
+- **Age of Entity**: The date of incorporation/registration must not exceed 10 years. For DeepTech startups, this period is extended up to 20 years.
+- **Turnover Limit**: Annual turnover must not have exceeded INR 100 Crore in any of the previous financial years. For DeepTech startups, the limit is INR 300 Crore.
+- **Nature of Business**: The entity must work towards innovation, development, or improvement of products, services, or processes, or have a scalable business model with high potential for employment generation or wealth creation.
+- **Original Entity**: The entity must not have been formed by splitting up or reconstructing an existing business.
+
+### Key Benefits of DPIIT Recognition
+- **Income Tax Exemption (Section 80-IAC)**: Eligible startups can apply for a tax holiday for 3 consecutive financial years out of their first 10 years of incorporation.
+- **Angel Tax Exemption (Section 56(2)(viib))**: Recognized startups are exempt from tax on share premium under Section 56 of the Income Tax Act, subject to certain conditions (aggregate amount of share capital and share premium after issue does not exceed INR 25 Crore).
+- **Intellectual Property (IPR) Support**: Fast-tracked patent applications, 80% rebate in patent registration fees, and 50% rebate in trademark filing fees, with access to a panel of government-appointed facilitators.
+- **Easier Compliance**: Self-certification of compliance under 6 labour laws and 3 environmental laws for a period of 3 to 5 years.
+- **Public Procurement norms relaxation**: Exemption from submitting Earnest Money Deposit (EMD) and relaxation in prior experience or turnover criteria in government tenders.
+- **Faster Exit**: Winding up of the startup can be done within 90 days under the Insolvency and Bankruptcy Code (IBC).
+
+---
+
+## 2. Startup India Seed Fund Scheme (SISFS)
+
+### Overview
+The Startup India Seed Fund Scheme (SISFS) provides financial assistance to early-stage startups for proof of concept, prototype development, product trials, market entry, and commercialization.
+
+### Eligibility for Startups
+- Must be a DPIIT-recognized startup.
+- Incorporated not more than 2 years ago at the time of application.
+- Must have a business idea that is innovative, scalable, and has the potential for commercialization, using technology as a core component.
+- Startup must not have received more than INR 10 Lakhs of monetary support under any other Central or State Government scheme (excluding prize money, subsidized space, or mentoring).
+- At least 51% of the shareholding must be held by Indian promoters.
+
+### Funding Mechanism
+Funding is channeled through selected Incubators:
+1. **Grant**: Up to INR 20 Lakhs for validation of proof of concept, prototype development, or product trials.
+2. **Debt/Convertible Instruments**: Up to INR 50 Lakhs for market entry, commercialization, or scaling up, through convertible debentures, debt, or debt-linked instruments.
+
+---
+
+## 3. Credit Guarantee Scheme for Startups (CGSS)
+- Provides credit guarantee to loans extended by scheduled commercial banks, NBFCs, and AIFs to DPIIT-recognized startups.
+- Offers collateral-free loans up to INR 10 Crore per startup.
+- Guarantee cover is up to 80% of the amount in default (subject to caps based on loan amount).
+
+---
+
+## 4. SAMRIDH Scheme (MeitY)
+- Ministry of Electronics and Information Technology (MeitY) Start-up Hub (MSH) launched the Startup Accelerator of MeitY for Product Innovation, Development and Growth (SAMRIDH).
+- Provides funding up to INR 40 Lakhs to selected startups through accelerators, matching the accelerator's investment.
+- Focused on supporting software product startups with acceleration programs, mentorship, and international market access.
+
+---
+
+## 5. Legal & Compliance Checklists for Indian Startups
+
+### Incorporation Step-by-Step
+1. **Digital Signature Certificate (DSC)**: Required for all directors/partners.
+2. **Director Identification Number (DIN)**: Required for directors of a Private Limited Company.
+3. **Name Approval**: Apply through RUN (Reserve Unique Name) on the Ministry of Corporate Affairs (MCA) portal.
+4. **SPICe+ Form Filing**: Consolidated form for incorporation, PAN/TAN allocation, EPFO/ESIC registration, and professional tax (state-specific).
+5. **Certificate of Incorporation (COI)**: Issued by the Registrar of Companies (ROC).
+
+### Tax Registrations
+- **PAN (Permanent Account Number)** and **TAN (Tax Deduction and Collection Account Number)**: Obtained automatically during SPICe+ incorporation.
+- **GST (Goods and Services Tax)**: Mandatory if annual turnover exceeds INR 40 Lakhs for goods (INR 20 Lakhs for services/hilly states) or if engaging in inter-state supply, e-commerce, or online services.
+- **Professional Tax (PT)**: State-specific registration required for hiring employees.

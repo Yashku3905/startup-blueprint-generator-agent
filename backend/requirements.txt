@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+ibm-watsonx-ai
+ibmcloudant
+pydantic
+python-dotenv
+langchain
+langchain-community
+faiss-cpu
+sentence-transformers
+pypdf

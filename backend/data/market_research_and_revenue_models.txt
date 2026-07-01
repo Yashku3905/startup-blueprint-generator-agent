@@ -1,0 +1,55 @@
+# Startup Market Research, Common Revenue Models, and Budget Allocation Guidelines
+
+## 1. Market Research & Sizing Frameworks
+Every startup must quantify its market size to prove scalability to investors.
+- **TAM (Total Addressable Market)**: The overall revenue opportunity that is available if 100% market share is achieved (e.g., Global Smart Agriculture market size).
+- **SAM (Serviceable Addressable Market)**: The portion of TAM that fits your product's geographic and feature reach (e.g., Smart Agriculture drone market size in India).
+- **SOM (Serviceable Obtainable Market)**: The subset of SAM that you can realistically capture within the first 3-5 years (e.g., Smart Agriculture drone market in Western and Southern India).
+
+---
+
+## 2. Common Startup Revenue Models
+How the business generates revenue and captures value.
+
+1. **SaaS (Software-as-a-Service)**:
+   - Users pay a recurring fee (monthly/annually) to access software.
+   - Example: Zoho, HubSpot.
+   - Moat: High recurring revenue (MRR/ARR), high gross margins, and customer lock-in.
+
+2. **Marketplace & Transaction Fee**:
+   - Platform connects buyers and sellers, taking a percentage commission of each transaction.
+   - Example: Uber, Swiggy, Airbnb.
+   - Moat: Network effects (more buyers attract more sellers and vice-versa).
+
+3. **Direct-to-Consumer (D2C) / E-commerce**:
+   - Selling physical products directly through a digital storefront, eliminating middle-men.
+   - Example: Nykaa, Mamaearth.
+   - Moat: Brand loyalty, customer data control, higher gross margin.
+
+4. **Freemium & Subscription**:
+   - Basic features are free; advanced features require a subscription.
+   - Example: Canva, LinkedIn Premium.
+
+5. **Ad-Supported / Monetization of Data**:
+   - Free tool/platform that aggregates user attention and serves targeted advertisements.
+   - Example: Facebook, Duolingo (partially).
+
+---
+
+## 3. Early-Stage Budget Allocation Guidelines
+For an initial seed funding of INR 20 Lakhs to 50 Lakhs (e.g. from Startup India Seed Fund), the general standard allocation of capital is:
+
+*   **Product Development & Engineering (40%)**:
+    - Core MVP creation, cloud infrastructure (AWS/Azure/IBM Cloud), hiring software developers/designers.
+*   **Marketing, Sales & Customer Acquisition (30%)**:
+    - Digital ads (Google/Meta), sales collateral, SEO, content marketing, attending conferences.
+*   **Operations & Infrastructure (20%)**:
+    - Office rent (or co-working spaces), software subscriptions, hardware assets, customer support.
+*   **Legal, Compliance & Reserve (10%)**:
+    - Incorporation fees, DPIIT registration, patent/trademark filing, retainer for accounting, audit fees, emergency contingency cash.
+
+### Key Financial Metrics to Track:
+- **Burn Rate**: The rate at which the company spends its capital (monthly cash outflow).
+- **Runway**: The amount of time (in months) the company has before running out of money. Formulated as: `Current Cash Balance / Monthly Burn Rate`. Recommended runway is at least 12 to 18 months.
+- **CAC (Customer Acquisition Cost)**: Total marketing spend / number of new customers acquired.
+- **LTV (Lifetime Value)**: Total revenue expected from a single customer over their relationship lifecycle. Healthy startups aim for `LTV > 3 * CAC`.
