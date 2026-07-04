@@ -42,8 +42,9 @@ function App() {
     setActiveTab('full');
 
     try {
-      // Use local backend URL
-      const response = await axios.post('http://localhost:8000/api/generate', {
+      // Use configured or local backend URL
+      const apiBaseUrl = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000';
+      const response = await axios.post(`${apiBaseUrl}/api/generate`, {
         idea: idea
       });
 
