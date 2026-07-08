@@ -1,8 +1,8 @@
 import os
 from langchain_community.document_loaders import DirectoryLoader, TextLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
+from embeddings_service import get_embeddings
 
 def main():
     # Setup paths relative to script location
@@ -28,8 +28,8 @@ def main():
     docs = text_splitter.split_documents(documents)
     print(f"Split into {len(docs)} text chunks.")
     
-    print("Initializing embeddings model (all-MiniLM-L6-v2)...")
-    embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
+    print("Initializing Watsonx Embeddings model (intfloat/multilingual-e5-large)...")
+    embeddings = get_embeddings()
     
     print("Building FAISS vector index...")
     db = FAISS.from_documents(docs, embeddings)

@@ -19,10 +19,7 @@ from granite_service import get_granite_model
 # 4. RAG-related imports
 try:
     from langchain_community.vectorstores import FAISS
-    try:
-        from langchain_huggingface import HuggingFaceEmbeddings
-    except ImportError:
-        from langchain_community.embeddings import HuggingFaceEmbeddings
+    from embeddings_service import get_embeddings
     RAG_AVAILABLE = True
 except Exception as e:
     print(f"RAG Imports not available yet (packages still installing?): {e}")
@@ -57,7 +54,7 @@ if RAG_AVAILABLE:
         db_path = os.path.join(current_dir, "faiss_index")
         if os.path.exists(db_path):
             print(f"Loading FAISS index from: {db_path}")
-            embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
+            embeddings = get_embeddings()
             db = FAISS.load_local(db_path, embeddings, allow_dangerous_deserialization=True)
             print("FAISS index loaded successfully.")
         else:
@@ -78,7 +75,7 @@ def generate_blueprint(request: StartupRequest):
                 current_dir = os.path.dirname(os.path.abspath(__file__))
                 db_path = os.path.join(current_dir, "faiss_index")
                 if os.path.exists(db_path):
-                    embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
+                    embeddings = get_embeddings()
                     db = FAISS.load_local(db_path, embeddings, allow_dangerous_deserialization=True)
             except Exception:
                 pass
