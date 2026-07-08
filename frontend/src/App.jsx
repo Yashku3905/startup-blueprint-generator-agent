@@ -42,8 +42,8 @@ function App() {
     setActiveTab('full');
 
     try {
-      // Use configured or local backend URL
-      const apiBaseUrl = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000';
+      // Use configured backend URL, defaulting to relative path in production (Vercel rewrites) and localhost in development
+      const apiBaseUrl = import.meta.env.VITE_API_BASE_URL || (import.meta.env.PROD ? '' : 'http://localhost:8000');
       const response = await axios.post(`${apiBaseUrl}/api/generate`, {
         idea: idea
       });
